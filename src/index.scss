@@ -1,0 +1,242 @@
+$primary_color_1: #1a1a1a;
+$secondary_color: #5a5a5a;
+
+$primary_color_1_text: #ffffff;
+$secondary_color_1_text: #a3a3a3;
+
+
+h1,
+h2,
+h3,
+h4,
+a,
+div,
+label,
+input {
+  color: $primary_color_1_text;
+}
+
+hr {
+  border-color: $secondary_color_1_text
+}
+
+.navbar {
+  position: fixed !important;
+  width: 100% !important;
+}
+
+.ui.button {
+  background-color: $primary_color_1_text !important;
+}
+
+.bodyContainer {
+  padding: 30px 15px;
+  background-color: $primary_color_1;
+  padding-top: 68px;
+  min-height: calc(100vh);
+  height: calc(100% - 48px);
+}
+
+.singleForm {
+  max-width: 500px;
+  margin: auto;
+  border-radius: 5px;
+  padding: 30px;
+  //box-shadow: 0 0 15px rgb(153, 153, 153);
+
+  .ui.form {
+    .field {
+      label {
+        color: $primary_color_1_text;
+      }
+    }
+  }
+
+  .my_button_wrapper {
+    text-align: center;
+    width: 100%;
+  }
+
+  .my_field {
+    margin-top: 15px !important;
+  }
+}
+
+.my_button {
+  margin-top: 15px !important;
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+}
+
+.my_input_inline {
+  margin: 5px !important
+}
+
+.my_button.secondary {
+  background-color: transparent !important;
+  color: $primary_color_1_text !important;
+  font-weight: 100 !important;
+}
+
+
+.my_title_wrapper {
+  text-align: center;
+
+  h1 {
+    font-weight: 300;
+    margin-bottom: 15px !important;
+  }
+}
+
+.my_container {
+
+  .my_title_wrapper {
+    text-align: left !important;
+
+    h1 {
+      margin-bottom: 0px !important;
+    }
+  }
+
+  .my_status {
+    background-color: $primary_color_1_text !important;
+    color: $primary_color_1 !important;
+    padding: 5px 5px !important;
+    border-radius: 2px !important;
+    margin-left: 5px !important;
+    font-size: 0.7em !important;
+  }
+
+  .my_status.my_status_alert {
+    background-color: rgb(255, 129, 129) !important;
+  }
+
+  .my_status.my_status_success {
+    background-color: rgb(170, 255, 149) !important;
+  }
+
+  .my_button_wrapper {
+
+    .my_button {
+      margin: 0px !important;
+    }
+
+  }
+
+  .my_button_group_wrapper {
+
+    .my_button {
+      margin: 0px 5px !important;
+    }
+  }
+
+  .my_button_wrapper.my_button_right {
+
+    text-align: right !important;
+  }
+}
+
+.my_edit:hover {
+  cursor: pointer !important;
+}
+
+.my_modal {
+  background-color: $primary_color_1 !important;
+
+  .ui.header {
+    background-color: $primary_color_1 !important;
+    color: white !important;
+    border-bottom-color: $secondary_color_1_text !important;
+    margin: 1.5rem !important;
+    margin-bottom: 0 !important;
+  }
+
+  .results {
+    .header {
+      background-color: $primary_color_1_text !important;
+      color: $primary_color_1 !important;
+    }
+  }
+
+  .my_label {
+    margin-top: 10px !important;
+  }
+
+  label {
+    color: $primary_color_1_text !important;
+  }
+
+  .my_form {
+    padding: 1.5rem !important;
+  }
+
+  .selection,
+  .dropdown {
+
+    .text {
+      color: $primary_color_1 !important
+    }
+
+    .default {
+      color: $secondary_color_1_text !important;
+    }
+
+  }
+
+  .actions {
+    background-color: $primary_color_1 !important;
+    display: inline-flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  input,
+  textarea {
+    background-color: $primary_color_1 !important;
+    border-color: $secondary_color_1_text !important;
+    color: $primary_color_1_text !important;
+  }
+
+  .my_button.my_button_positive {
+    background-color: #b5cc18 !important;
+    color: white !important;
+  }
+
+  .my_button.my_button_negative {
+    background-color: #e28649 !important;
+    color: white !important;
+  }
+}
+
+.search.icon {
+  color: $primary_color_1_text !important;
+}
+
+.my_subject {
+  padding-left: 0.7rem !important;
+  border-left: 4px solid $primary_color_1_text;
+  margin-bottom: 1rem !important;
+}
+
+.my_details {
+  margin-bottom: 5px;
+}
+
+.my_comment_wrapper {
+
+  .my_subject {
+    margin-bottom: 0.7rem !important;
+  }
+
+  .my_comment {
+    padding-bottom: 15px !important;
+    margin-bottom: 15px !important;
+    border-bottom: 1px solid $secondary_color_1_text !important
+  }
+
+  .my_comment_meta {
+    margin-bottom: 0.8rem !important;
+    opacity: 0.8 !important;
+  }
+
+}
